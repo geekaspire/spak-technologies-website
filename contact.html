@@ -412,11 +412,7 @@
                   <h2 class="title">Drop Us a Line</h2>
                 </div>
                 <div id="form-messages"></div>
-                <form
-                  id="contact-form"
-                  method="post"
-                  action="https://devsdesign.net/products/html/clenia/mailer.php"
-                >
+                <form id="contact-form" method="post" name="contact" netlify>
                   <fieldset>
                     <div class="row">
                       <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
@@ -456,22 +452,28 @@
                           aria-required="true"
                           aria-invalid="false"
                         >
-                          <option value="Your Service">Your Service</option>
-                          <option value="House Cleaning">House Cleaning</option>
-                          <option value="Kitchen Cleaning">
-                            Kitchen Cleaning
+                          <option value="Full Cleaning">Full Cleaing</option>
+                          <option value="Pest Control">Pest Control</option>
+                          <option value="Backyard Cleaning">
+                            Backyard Cleaning
                           </option>
-                          <option value="Toilet Cleaning">
-                            Toilet Cleaning
-                          </option>
-                          <option value="Office Cleaning">
-                            Office Cleaning
+                          <option value="Building Equipments Servicing">
+                            Building Equipments Servicing
                           </option>
                           <option value="Window Cleaning">
                             Window Cleaning
                           </option>
-                          <option value="Carpet Cleaning">
-                            Carpet Cleaning
+                          <option value="Glass and Aluminium works">
+                            Glass and Aluminium works
+                          </option>
+                          <option value="Electrical and Mechanical Work">
+                            Electrical and Mechanical Work
+                          </option>
+                          <option value="Staffing and Manpower">
+                            Staffing and Manpower
+                          </option>
+                          <option value="Leak Detection And Maintenance">
+                            Leak Detection And Maintenance
                           </option>
                         </select>
                       </div>
@@ -487,9 +489,13 @@
                     </div>
                     <div class="btn-part">
                       <div class="form-group mb-0">
-                        <p class="submit-btn submit-btn3">
-                          <input type="submit" value="Submit Now" />
-                        </p>
+                        <button
+                          type="submit"
+                          class="submit-btn submit-btn3"
+                          style="padding: 10px 20px"
+                        >
+                          Submit now
+                        </button>
                       </div>
                     </div>
                   </fieldset>
@@ -522,7 +528,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12 md-mb-20 pr-83 md-pr-15">
               <div class="footer-logo mb-30 md-mb-20">
                 <a href="index.html"
-                  ><img src="assets/images/light-logo.png" alt=""
+                  ><img src="assets/images/logo.png" alt=""
                 /></a>
               </div>
               <div class="textwidget mb-33">
